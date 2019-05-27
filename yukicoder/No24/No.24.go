@@ -3,7 +3,8 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Printf("delete me")
+	n := readNumber()
+	fmt.Println(n)
 }
 
 func readString() string {
@@ -21,7 +22,7 @@ func readStrings(len int) (strings []string) {
 	return
 }
 
-func readInt() int {
+func readNumber() int {
 	var num int
 	fmt.Scan(&num)
 	return num
