@@ -3,7 +3,6 @@ package main
 import "fmt"
 
 func main() {
-
 	var xx string = readLine()
 	println("hello!" + xx)
 }
