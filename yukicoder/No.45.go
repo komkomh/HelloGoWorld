@@ -7,7 +7,7 @@ import (
 func main() {
 	var N int
 	fmt.Scan(&N)
-	var V []int = scanNums(N)
+	var V []int = scanNums45(N)
 	var max int = 0
 	for i := 0; i < len(V); i++ {
 		var minus2 = 0
@@ -30,7 +30,7 @@ func main() {
 	fmt.Println(max)
 }
 
-func scanNums(len int) (nums []int) {
+func scanNums45(len int) (nums []int) {
 	var num int
 	for i := 0; i < len; i++ {
 		fmt.Scan(&num)
